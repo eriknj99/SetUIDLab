@@ -8,7 +8,7 @@ int main(){
 	system("id -u $(whoami)");
 
 	printf("\nwhich corresponds to the user: \n");
-	system("/bin/cat /etc/shadow");
+	system("whoami");
 
 	return 0;
 
